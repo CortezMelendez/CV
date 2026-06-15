@@ -1,0 +1,40 @@
+/* Importamos una fuente limpia de Google Fonts parecida a la de la imagen */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+
+.cv-hoja {
+    max-width: 950px;
+    border-radius: 8px;
+}
+
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+
+.titulo-seccion {
+    font-weight: 600;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: #111;
+}
+
+.pequeña-fecha {
+    font-size: 0.9rem;
+}
+
+.datos-personales p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
